@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" />
+    <title>sample homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <style>
+       .container{
+    display: flex;
+   
+    
+   padding-top: 26px;
+    padding-left:30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  .items{
+    
+    padding: 20px;
+
+  }
+   .items img:hover{
+    transform: scale(1.5);
+
+   } 
+  @media (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+  
+
+     
+      
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+        <ul class="options">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="contactMe.html">CONTACT ME</a></li>
+            <li><a href="myGallery.html">MY GALLERY</a></li>
+          </ul>
+        
+    </nav>
+
+    <div class="container">
+        <div class="container">
+            <div class="items"><img src="sample2.jpg" alt="second img"></div>
+            <div class="items"><img src="sample3.jpg" alt="third img"></div>
+            <div class="items"><img src="sample4.jpg" alt="fourth img"></div>
+            <div class="items"><img src="sample5.jpg" alt="fiveth img"></div>
+            <div class="items"><img src="sample6.jpg" alt="sixth img"></div>
+            <div class="items"><img src="sample7.jpg" alt="seventh img"></div>
+            <div class="items"><img src="sample8.jpg" alt="eight img"></div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+      <p>Page was designed by chaitanyaSai Pusuluri</p>
+    </div>
+  </body>
+</html>
